@@ -77,7 +77,8 @@
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p>To begin bloging, I studied <code class="highlighter-rouge">Markdown</code> from <a href="http://www.markdowntutorial.com">a useful tutorial</a>. This blog is itself written using Markdown.</p>
+    <p>To begin bloging, I studied <code class="highlighter-rouge">Markdown</code> from <a href="http://www.markdowntutorial.com">a useful tutorial</a>. This blog is itself written using Markdown.
+<br /><br /></p>
 
 <h3 id="1-font">1. Font</h3>
 <ul>
@@ -86,25 +87,18 @@
 
     <p>To make a phrase italic in Markdown, we can surround words with an underscore (<code class="highlighter-rouge">_</code>).</p>
 
-    <p>Syntax:</p>
+    <p>Syntax:
+<code class="highlighter-rouge">_italic words_</code></p>
   </li>
-</ul>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">  <span class="n">_italic</span> <span class="n">words_</span>
-  </code></pre></figure>
-
-<ul>
   <li>
     <p>Bold</p>
 
     <p>Similarly, to make phrases bold in Markdown, we can surround words with two asterisks (<code class="highlighter-rouge">**</code>).</p>
 
-    <p>Syntax:</p>
+    <p>Syntax:
+<code class="highlighter-rouge">**bold words**</code></p>
   </li>
 </ul>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">  <span class="o">**</span><span class="n">bold</span> <span class="n">words</span><span class="o">**</span>
-  </code></pre></figure>
 
 <h3 id="2-header">2. Header</h3>
 <p>To make headers in Markdown, you preface the phrase with a hash mark (<code class="highlighter-rouge">#</code>). You place the same number of hash marks as the size of the header you want. For example, for a header one, you’d use one hash mark (<code class="highlighter-rouge"># Header One</code>), while for a header three, you’d use three (<code class="highlighter-rouge">### Header Three</code>).</p>
@@ -114,24 +108,18 @@
   <li>
     <p>Inline Links</p>
 
-    <p>Syntax:</p>
+    <p>Syntax:<code class="highlighter-rouge">[link text](link URL)</code></p>
   </li>
-</ul>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">  <span class="p">[</span><span class="n">link</span> <span class="n">text</span><span class="p">](</span><span class="n">link</span> <span class="no">URL</span><span class="p">)</span>
-  </code></pre></figure>
-
-<ul>
   <li>
     <p>Reference Links</p>
 
     <p>Syntax:</p>
+    <div class="highlighter-rouge"><pre class="highlight"><code>[link text][link tag]
+[link tag]:link URL
+</code></pre>
+    </div>
   </li>
 </ul>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">  <span class="p">[</span><span class="n">link</span> <span class="n">text</span><span class="p">][</span><span class="n">link</span> <span class="n">tag</span><span class="p">]</span>
-  <span class="p">[</span><span class="n">link</span> <span class="n">tag</span><span class="p">]</span><span class="ss">:link</span> <span class="no">URL</span>
-  </code></pre></figure>
 
 <h3 id="4-images">4. Images</h3>
 <p>Creating images is quite the same as creating links. The difference is that an image is prefaced with an exclamation mark（<code class="highlighter-rouge">!</code>）.</p>
@@ -140,26 +128,21 @@
   <li>
     <p>Inline Images</p>
 
-    <p>Syntax:</p>
+    <p>Syntax:
+<code class="highlighter-rouge">![alt text](image URL)</code></p>
   </li>
-</ul>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">  <span class="o">!</span><span class="p">[</span><span class="n">alt</span> <span class="n">text</span><span class="p">](</span><span class="n">image</span> <span class="no">URL</span><span class="p">)</span>
-  </code></pre></figure>
-
-<ul>
   <li>
     <p>Reference Images</p>
 
     <p>Syntax:</p>
+    <div class="highlighter-rouge"><pre class="highlight"><code>![alt text][image tag]
+[image tag]:image URL
+</code></pre>
+    </div>
+
+    <p>Noted: Alt text in the brackets is optional, but it’s considered useful and polite to the visually impaired.</p>
   </li>
 </ul>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">  <span class="o">!</span><span class="p">[</span><span class="n">alt</span> <span class="n">text</span><span class="p">][</span><span class="n">image</span> <span class="n">tag</span><span class="p">]</span>
-  <span class="p">[</span><span class="n">image</span> <span class="n">tag</span><span class="p">]</span><span class="ss">:image</span> <span class="no">URL</span>
-  </code></pre></figure>
-
-<p>Noted: Alt text in the brackets is optional, but it’s considered useful and polite to the visually impaired.</p>
 
 <h3 id="5-blockquote">5. Blockquote</h3>
 <p>Preface a line with the “greater than” caret (<code class="highlighter-rouge">&gt;</code>) to create a block quote. If the quote spans multiple paragraphs, remember to place a caret character on each line of the quote. Here is an example:</p>
@@ -171,22 +154,77 @@
 
 <ul>
   <li>
-    <p>Unordered List
-Preface each item in the list with an asterisk (<code class="highlighter-rouge">*</code>) to create an unordered list. Want more depth? Just indent each asterisk one space more than the preceding item.</p>
+    <p>Unordered List</p>
+
+    <p>Preface each item in the list with an asterisk (<code class="highlighter-rouge">*</code>) to create an unordered list. Want more depth? Just indent each asterisk one space more than the preceding item.</p>
   </li>
   <li>
-    <p>6.2 Ordered List
-Ordered lists use numbers followed by periods.</p>
+    <p>Ordered List</p>
+
+    <p>Ordered lists use numbers followed by periods.</p>
 
     <p>Suppose we want to create a bullet list that requires some additional context (but not another list). To create this sort of text, your paragraph must start on a line all by itself underneath the bullet point, and it must be indented by at least one space.</p>
   </li>
 </ul>
 
 <h3 id="7-paragraph">7. Paragraph</h3>
+
 <p><code class="highlighter-rouge">Hard break</code> is breaking two paragraphs by inserting a new line between them. <code class="highlighter-rouge">Soft break</code> breaks paragraphs without inserting new lines.</p>
 
 <p>To make soft breaks, simply insert two spaces after each line.</p>
 
+<h3 id="8-code">8. Code</h3>
+
+<ul>
+  <li>
+    <p>Inline Code</p>
+
+    <p>For inline code blocks, wrap them in backticks: `var example = true`. Output: <code class="highlighter-rouge">var example = true</code></p>
+  </li>
+  <li>
+    <p>Longer Code Block</p>
+
+    <p>Syntax:</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>```Language
+bla bla bla
+{
+    bla bla bla
+}
+```
+</code></pre>
+    </div>
+
+    <p>For example,</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>```javascript
+if (isAwesome){
+  return true
+}
+```
+</code></pre>
+    </div>
+
+    <p>Output:</p>
+    <div class="language-javascript highlighter-rouge"><pre class="highlight"><code><span class="k">if</span> <span class="p">(</span><span class="nx">isAwesome</span><span class="p">){</span>
+  <span class="k">return</span> <span class="kc">true</span>
+<span class="p">}</span>
+</code></pre>
+    </div>
+  </li>
+</ul>
+
+<p><br /><br /></p>
+<h3 id="small-tricks">Small Tricks</h3>
+<ul>
+  <li>
+    <p>How to create blank lines?</p>
+
+    <p>Since most of the Markdown complier html, we can simply add <code class="highlighter-rouge">&lt;br&gt;&lt;br&gt;</code> in the Markdown source.</p>
+  </li>
+</ul>
+
+<p><br /><br /></p>
 <h3 id="reference-links">Reference Links</h3>
 <ul>
   <li><a href="http://www.markdowntutorial.com">Markdown Tutorial</a></li>

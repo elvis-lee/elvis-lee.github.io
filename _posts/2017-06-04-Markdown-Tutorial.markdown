@@ -5,7 +5,7 @@ date:   2017-06-04 16:00:00 +0800
 categories: markdown
 ---
 To begin bloging, I studied `Markdown` from [a useful tutorial][markdown tutorial]. This blog is itself written using Markdown.
-
+<br><br>
 
 
 ### 1. Font
@@ -14,18 +14,14 @@ To begin bloging, I studied `Markdown` from [a useful tutorial][markdown tutoria
   To make a phrase italic in Markdown, we can surround words with an underscore (`_`).
 
   Syntax:
-  {% highlight ruby %}
-  _italic words_
-  {% endhighlight %}
+  `_italic words_`
 
 * Bold
 
   Similarly, to make phrases bold in Markdown, we can surround words with two asterisks (`**`).
 
   Syntax:
-  {% highlight ruby %}
-  **bold words**
-  {% endhighlight %}
+  `**bold words**`
 
 
 
@@ -37,18 +33,15 @@ To make headers in Markdown, you preface the phrase with a hash mark (`#`). You 
 ### 3. Link
 * Inline Links
 
-  Syntax:
-  {% highlight ruby %}
-  [link text](link URL)
-  {% endhighlight %}
+  Syntax:`[link text](link URL)`
 
 * Reference Links
 
   Syntax:
-  {% highlight ruby %}
+  ```
   [link text][link tag]
   [link tag]:link URL
-  {% endhighlight %}
+  ```
 
 
 
@@ -58,17 +51,16 @@ Creating images is quite the same as creating links. The difference is that an i
 * Inline Images 
 
   Syntax:
-  {% highlight ruby %}
-  ![alt text](image URL)
-  {% endhighlight %}
+  `![alt text](image URL)`
 
 * Reference Images
 
   Syntax:
-  {% highlight ruby %}
+  ```
   ![alt text][image tag]
   [image tag]:image URL
-  {% endhighlight %}
+  ```
+  
 
   Noted: Alt text in the brackets is optional, but it's considered useful and polite to the visually impaired.
 
@@ -83,20 +75,62 @@ Preface a line with the "greater than" caret (`>`) to create a block quote. If t
 ### 6. List
 
 * Unordered List
+
   Preface each item in the list with an asterisk (`*`) to create an unordered list. Want more depth? Just indent each asterisk one space more than the preceding item.
 
-* 6.2 Ordered List
+* Ordered List
+
   Ordered lists use numbers followed by periods. 
 
   Suppose we want to create a bullet list that requires some additional context (but not another list). To create this sort of text, your paragraph must start on a line all by itself underneath the bullet point, and it must be indented by at least one space. 
 
-
-
 ### 7. Paragraph
+
 `Hard break` is breaking two paragraphs by inserting a new line between them. `Soft break` breaks paragraphs without inserting new lines. 
 
 To make soft breaks, simply insert two spaces after each line.
 
+### 8. Code
+
+* Inline Code
+
+  For inline code blocks, wrap them in backticks: \`var example = true\`. Output: `var example = true`
+
+* Longer Code Block
+
+  Syntax:
+
+      ```Language
+      bla bla bla
+      {
+  	    bla bla bla
+      }
+      ```
+
+
+  For example,
+  
+      ```javascript
+      if (isAwesome){
+        return true
+      }
+      ```
+  
+  Output:
+  ```javascript
+  if (isAwesome){
+    return true
+  }
+  ```
+  
+<br><br>  
+### Small Tricks
+* How to create blank lines?
+
+  Since most of the Markdown complier html, we can simply add `<br><br>` in the Markdown source.
+
+
+<br><br>
 ### Reference Links
 * [Markdown Tutorial][markdown tutorial]
 * [Daring Fireball Markdown Basic][markdown basic]
