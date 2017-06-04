@@ -64,6 +64,8 @@ Creating images is quite the same as creating links. The difference is that an i
 
   Noted: Alt text in the brackets is optional, but it's considered useful and polite to the visually impaired.
 
+  Images support test:![ZJU][zju]
+
 
 
 ### 5. Blockquote
@@ -136,10 +138,9 @@ To make soft breaks, simply insert two spaces after each line.
 * [Daring Fireball Markdown Basic][markdown basic]
 * [Online Markdown Editor: Dingus][markdown editor]
 
-![Test][test]
-[test]: https://elvis-lee.github.io/image/2017-06-04-Markdown-Tutorial.markdown/zju.jpg
+
 
 [markdown tutorial]: http://www.markdowntutorial.com
 [markdown basic]: https://daringfireball.net/projects/markdown/basics
 [markdown editor]: https://daringfireball.net/projects/markdown/dingus
-
+[zju]: /image/2017-06-04-Markdown-Tutorial.markdown/zju.jpg
