@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "GOUZI"
+title:  "你好狗子"
 date:   2017-06-04 10:31:00 +0800
 categories: jekyll update
 ---
