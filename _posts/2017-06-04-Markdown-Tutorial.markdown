@@ -122,7 +122,7 @@ To make soft breaks, simply insert two spaces after each line.
     return true
   }
   ```
-  
+
 <br><br>  
 ### Small Tricks
 * How to create blank lines?
@@ -135,6 +135,9 @@ To make soft breaks, simply insert two spaces after each line.
 * [Markdown Tutorial][markdown tutorial]
 * [Daring Fireball Markdown Basic][markdown basic]
 * [Online Markdown Editor: Dingus][markdown editor]
+
+![Test][test]
+[test]: https://elvis-lee.github.io/image/2017-06-04-Markdown-Tutorial.markdown/zju.jpg
 
 [markdown tutorial]: http://www.markdowntutorial.com
 [markdown basic]: https://daringfireball.net/projects/markdown/basics
