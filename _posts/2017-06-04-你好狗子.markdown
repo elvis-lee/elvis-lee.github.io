@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "你好狗子"
+date:   2017-06-04 10:31:00 +0800
+categories: jekyll update
+---
+你好`狗子`! 
+
+{% highlight ruby %}
+中午狗子不出来吃饭吗？
+{% endhighlight %}
+
+Check [狗子][hao-li-github] for more information.
+
+[hao-li-github]: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1496554723205&di=5f8858b2e38a3ac861fa0a0e099ddcce&imgtype=0&src=http%3A%2F%2Fimg.tupianzj.com%2Fuploads%2Fallimg%2F160810%2F9-160Q0223H4-lp.jpg
