@@ -7,7 +7,7 @@ categories: markdown
 To begin bloging, I studied `Markdown` from [a useful tutorial][markdown tutorial]. 
 
 **Note:** This post is itself written using Markdown; you
-can [see the source for it by adding '.text' to the URL][src].
+can [see the source for it here][src].
 
 [src]:  /text/Markdown-Tutorial.txt
 <br><br>
