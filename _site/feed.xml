@@ -1,74 +1,115 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-06-04T21:33:33+08:00</updated><id>http://localhost:4000/</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-06-04T22:14:27+08:00</updated><id>http://localhost:4000/</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </subtitle><entry><title type="html">Markdown Tutorial</title><link href="http://localhost:4000/markdown/2017/06/04/Markdown-Tutorial.html" rel="alternate" type="text/html" title="Markdown Tutorial" /><published>2017-06-04T16:00:00+08:00</published><updated>2017-06-04T16:00:00+08:00</updated><id>http://localhost:4000/markdown/2017/06/04/Markdown-Tutorial</id><content type="html" xml:base="http://localhost:4000/markdown/2017/06/04/Markdown-Tutorial.html">&lt;p&gt;To begin bloging, I studied &lt;code class=&quot;highlighter-rouge&quot;&gt;Markdown&lt;/code&gt; from &lt;a href=&quot;http://www.markdowntutorial.com&quot;&gt;a useful tutorial&lt;/a&gt;. This blog is itself written using Markdown.&lt;/p&gt;
 
-&lt;h1 id=&quot;1-font&quot;&gt;1. Font&lt;/h1&gt;
-&lt;h2 id=&quot;11-italics&quot;&gt;1.1 Italics&lt;/h2&gt;
-&lt;p&gt;To make a phrase italic in Markdown, we can surround words with an underscore (&lt;code class=&quot;highlighter-rouge&quot;&gt;_&lt;/code&gt;).&lt;/p&gt;
+&lt;h3 id=&quot;1-font&quot;&gt;1. Font&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Italics&lt;/p&gt;
 
-&lt;p&gt;Syntax&lt;/p&gt;
+    &lt;p&gt;To make a phrase italic in Markdown, we can surround words with an underscore (&lt;code class=&quot;highlighter-rouge&quot;&gt;_&lt;/code&gt;).&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;_italic&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;words_&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+    &lt;p&gt;Syntax:&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h2 id=&quot;12-bold&quot;&gt;1.2 Bold&lt;/h2&gt;
-&lt;p&gt;Similarly, to make phrases bold in Markdown, we can surround words with two asterisks (&lt;code class=&quot;highlighter-rouge&quot;&gt;**&lt;/code&gt;).&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;  &lt;span class=&quot;n&quot;&gt;_italic&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;words_&lt;/span&gt;
+  &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Syntax&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Bold&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bold&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;words&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+    &lt;p&gt;Similarly, to make phrases bold in Markdown, we can surround words with two asterisks (&lt;code class=&quot;highlighter-rouge&quot;&gt;**&lt;/code&gt;).&lt;/p&gt;
 
-&lt;h1 id=&quot;2-header&quot;&gt;2. Header&lt;/h1&gt;
+    &lt;p&gt;Syntax:&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;  &lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bold&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;words&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;
+  &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;2-header&quot;&gt;2. Header&lt;/h3&gt;
 &lt;p&gt;To make headers in Markdown, you preface the phrase with a hash mark (&lt;code class=&quot;highlighter-rouge&quot;&gt;#&lt;/code&gt;). You place the same number of hash marks as the size of the header you want. For example, for a header one, you’d use one hash mark (&lt;code class=&quot;highlighter-rouge&quot;&gt;# Header One&lt;/code&gt;), while for a header three, you’d use three (&lt;code class=&quot;highlighter-rouge&quot;&gt;### Header Three&lt;/code&gt;).&lt;/p&gt;
 
-&lt;h1 id=&quot;3-link&quot;&gt;3. Link&lt;/h1&gt;
-&lt;h2 id=&quot;31-inline-links&quot;&gt;3.1 Inline Links&lt;/h2&gt;
-&lt;p&gt;Syntax&lt;/p&gt;
+&lt;h3 id=&quot;3-link&quot;&gt;3. Link&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Inline Links&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;link&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;link&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;URL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+    &lt;p&gt;Syntax:&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h2 id=&quot;32-reference-links&quot;&gt;3.2 Reference Links&lt;/h2&gt;
-&lt;p&gt;Syntax&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;  &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;link&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;link&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;URL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;link&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;link&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;link&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:link&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;URL&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Reference Links&lt;/p&gt;
 
-&lt;h1 id=&quot;4-images&quot;&gt;4. Images&lt;/h1&gt;
+    &lt;p&gt;Syntax:&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;  &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;link&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;link&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;link&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:link&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;URL&lt;/span&gt;
+  &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;4-images&quot;&gt;4. Images&lt;/h3&gt;
 &lt;p&gt;Creating images is quite the same as creating links. The difference is that an image is prefaced with an exclamation mark（&lt;code class=&quot;highlighter-rouge&quot;&gt;!&lt;/code&gt;）.&lt;/p&gt;
 
-&lt;h2 id=&quot;41-inline-images&quot;&gt;4.1 Inline Images&lt;/h2&gt;
-&lt;p&gt;Syntax&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Inline Images&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;image&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;URL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+    &lt;p&gt;Syntax:&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h2 id=&quot;42-reference-images&quot;&gt;4.2 Reference Images&lt;/h2&gt;
-&lt;p&gt;Syntax&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;  &lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;image&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;URL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;image&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;image&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:image&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;URL&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Reference Images&lt;/p&gt;
+
+    &lt;p&gt;Syntax:&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;  &lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;image&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;image&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:image&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;URL&lt;/span&gt;
+  &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Noted: Alt text in the brackets is optional, but it’s considered useful and polite to the visually impaired.&lt;/p&gt;
 
-&lt;h1 id=&quot;5-blockquote&quot;&gt;5. Blockquote&lt;/h1&gt;
+&lt;h3 id=&quot;5-blockquote&quot;&gt;5. Blockquote&lt;/h3&gt;
 &lt;p&gt;Preface a line with the “greater than” caret (&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt;&lt;/code&gt;) to create a block quote. If the quote spans multiple paragraphs, remember to place a caret character on each line of the quote. Here is an example:&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;Block quoting in Markdown is easy!&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h1 id=&quot;6-list&quot;&gt;6. List&lt;/h1&gt;
+&lt;h3 id=&quot;6-list&quot;&gt;6. List&lt;/h3&gt;
 
-&lt;h2 id=&quot;61-unordered-list&quot;&gt;6.1 Unordered List&lt;/h2&gt;
-&lt;p&gt;Preface each item in the list with an asterisk (&lt;code class=&quot;highlighter-rouge&quot;&gt;*&lt;/code&gt;) to create an unordered list. Want more depth? Just indent each asterisk one space more than the preceding item.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Unordered List
+Preface each item in the list with an asterisk (&lt;code class=&quot;highlighter-rouge&quot;&gt;*&lt;/code&gt;) to create an unordered list. Want more depth? Just indent each asterisk one space more than the preceding item.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;6.2 Ordered List
+Ordered lists use numbers followed by periods.&lt;/p&gt;
 
-&lt;h2 id=&quot;62-ordered-list&quot;&gt;6.2 Ordered List&lt;/h2&gt;
-&lt;p&gt;Ordered lists use numbers followed by periods.&lt;/p&gt;
+    &lt;p&gt;Suppose we want to create a bullet list that requires some additional context (but not another list). To create this sort of text, your paragraph must start on a line all by itself underneath the bullet point, and it must be indented by at least one space.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;Suppose we want to create a bullet list that requires some additional context (but not another list). To create this sort of text, your paragraph must start on a line all by itself underneath the bullet point, and it must be indented by at least one space.&lt;/p&gt;
-
-&lt;h1 id=&quot;7-paragraph&quot;&gt;7. Paragraph&lt;/h1&gt;
+&lt;h3 id=&quot;7-paragraph&quot;&gt;7. Paragraph&lt;/h3&gt;
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Hard break&lt;/code&gt; is breaking two paragraphs by inserting a new line between them. &lt;code class=&quot;highlighter-rouge&quot;&gt;Soft break&lt;/code&gt; breaks paragraphs without inserting new lines.&lt;/p&gt;
 
 &lt;p&gt;To make soft breaks, simply insert two spaces after each line.&lt;/p&gt;
 
-&lt;h1 id=&quot;reference-links&quot;&gt;Reference Links&lt;/h1&gt;
+&lt;h3 id=&quot;reference-links&quot;&gt;Reference Links&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.markdowntutorial.com&quot;&gt;Markdown Tutorial&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://daringfireball.net/projects/markdown/basics&quot;&gt;Daring Fireball Markdown Basic&lt;/a&gt;&lt;/li&gt;
