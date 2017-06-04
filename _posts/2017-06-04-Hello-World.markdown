@@ -6,10 +6,5 @@ categories: jekyll update
 ---
 Hello World! 
 This is the first blog written by `Hao Li`.
-{% highlight ruby %}
-Let me try something highlighted content
-{% endhighlight %}
 
-Check [Hao Li's github][hao-li-github] for more information.
 
-[hao-li-github]: https://baidu.com
