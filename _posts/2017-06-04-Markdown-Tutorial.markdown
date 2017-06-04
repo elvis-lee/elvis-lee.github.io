@@ -9,7 +9,7 @@ To begin bloging, I studied `Markdown` from [a useful tutorial][markdown tutoria
 **Note:** This post is itself written using Markdown; you
 can [see the source for it by adding '.text' to the URL][src].
 
-[src]: /text/Markdown-Tutorial.txt
+[src]: /text/t.text
 <br><br>
 
 
