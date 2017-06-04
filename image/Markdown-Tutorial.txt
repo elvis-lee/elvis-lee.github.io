@@ -4,12 +4,7 @@ title:  "Markdown Tutorial"
 date:   2017-06-04 16:00:00 +0800
 categories: markdown
 ---
-To begin bloging, I studied `Markdown` from [a useful tutorial][markdown tutorial]. 
-
-**Note:** This post is itself written using Markdown; you
-can [see the source for it by adding '.text' to the URL][src].
-
-[src]: /text/Markdown-Tutorial.txt
+To begin bloging, I studied `Markdown` from [a useful tutorial][markdown tutorial]. This blog is itself written using Markdown.
 <br><br>
 
 
@@ -110,7 +105,7 @@ To make soft breaks, simply insert two spaces after each line.
       ```Language
       bla bla bla
       {
-        bla bla bla
+  	    bla bla bla
       }
       ```
 
