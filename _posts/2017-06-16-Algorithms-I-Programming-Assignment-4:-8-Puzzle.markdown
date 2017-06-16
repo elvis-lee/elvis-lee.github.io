@@ -8,8 +8,11 @@ The purpose of writing this post is to collect **issues** I encountered during d
 
 Here is the [assignment specifications][spec], and the [checklists][faq].
 
+My solution is [here][solution]. It received 100% points.
+
 [spec]: http://coursera.cs.princeton.edu/algs4/assignments/8puzzle.html
 [faq]: http://coursera.cs.princeton.edu/algs4/checklists/8puzzle.html
+[solution]: https://github.com/elvis-lee/algorithms/tree/master/8%20Puzzle
 <br><br>
 ## Issues
 * **Inner class private fields accessibility**
