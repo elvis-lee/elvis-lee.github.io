@@ -2,7 +2,7 @@
 layout: post
 title:  "Abstract Class vs. Interface in Java"
 date:   2017-08-09 23:00:00 +0800
-categories: Algorithms Assignment
+categories: Java
 ---
 A links to understand the difference between `abstract class` and `Interface`:
 
