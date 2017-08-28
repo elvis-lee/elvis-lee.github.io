@@ -40,8 +40,7 @@ List of links that I found useful:
 
 Add a link to MathJax in my `/_layouts/default.html`. Note that kramdown does not ship with the MathJax library and that therefore the “default” template does not include a link to it! [MathJax: Getting Started](http://docs.mathjax.org/en/latest/start.html) describes how to do it. Basically, I just added the following codes in my `/_layouts/default.html` file(create one in my own repo to overwrite the one in minima repo).
 
-	```javascript
-	<script type="text/javascript" async
-  	src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
-	</script>
-	```
+```javascript
+<script type="text/javascript" asyncsrc="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+```
