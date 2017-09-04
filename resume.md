@@ -170,13 +170,13 @@ permalink: /resume/
 <h2 id="Selected Awards">Selected Awards</h2>
 <dl>
 <dt>UCB</dt>
-<dd>•	Fung Fellowship($20,000)</dd>
+<dd>•	Fung Fellowship ($20,000)</dd>
 <br>
 <dt>UCLA</dt>
 <dd>•	Cross-disciplinary Scholars in Science and Technology($7,500)</dd>
 <br>
 <dt>NUS</dt>
-<dd>•	TF LEaRN Scholar($6,500)</dd>
+<dd>•	TF LEaRN Scholar ($6,500)</dd>
 <br>
 <dt>ZJU</dt>
 <dd>•	Dean’s List, Scholarship for Excellence (Highest honor awarded by the Chu Kochen Honors College, 1/462)</dd>
