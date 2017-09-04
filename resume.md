@@ -95,7 +95,7 @@ permalink: /resume/
 <tbody>
 <tr class="odd">
 <td align="left">Linkedin: <a href="https://www.linkedin.com/in/hao-li-b1ab89107/">Hao Li</a></td>
-<td align="right">Email: haoli@berkeley.edu</td>
+<td align="right">Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></td>
 </tr>
 <tr class="even">
 <td align="left">Personal Website: <a href="http://haoli.space">haoli.space</a></td>
@@ -169,7 +169,7 @@ permalink: /resume/
 <br>
 <h2 id="Selected Awards">Selected Awards</h2>
 <dl>
-<dt>UC Berkely</dt>
+<dt>UCB</dt>
 <dd>•	Fung Fellowship($20,000)</dd>
 <br>
 <dt>UCLA</dt>

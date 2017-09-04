@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+published: false
 ---
 
 I am a CS(Computer Science) master student at [UC Berkeley](https://berkeley.edu).
