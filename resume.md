@@ -173,7 +173,7 @@ permalink: /resume/
 <dd>•	Fung Fellowship ($20,000)</dd>
 <br>
 <dt>UCLA</dt>
-<dd>•	Cross-disciplinary Scholars in Science and Technology($7,500)</dd>
+<dd>•	Cross-disciplinary Scholars in Science and Technology ($7,500)</dd>
 <br>
 <dt>NUS</dt>
 <dd>•	TF LEaRN Scholar ($6,500)</dd>
