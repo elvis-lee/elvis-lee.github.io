@@ -108,7 +108,7 @@ permalink: /resume/
 <dt>Aug 2017-May 2018</dt>
 <dd><p><strong>University of California, Berkeley</strong>; M.Eng., Computer Science </p>
 <p><em>Project: Scaling up Deep Learning and Reinforcement Learning</em></p>
-<p><em>Concentration: Data Systems & Systems
+<p><em>Concentration: Data Science & Systems
 </em></p>
 </dd>
 <br>
